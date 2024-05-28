@@ -8,7 +8,7 @@ Global:
   save_model_dir: ./output/db_mv3/
   save_epoch_step: 20
   # evaluation is run every 2000 iterations
-  eval_batch_step: [0, 2000]
+  eval_batch_step: [0, 20]
   cal_metric_during_train: False
   pretrained_model: ./pretrain_models/MobileNetV3_large_x0_5_pretrained
   checkpoints:
