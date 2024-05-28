@@ -107,7 +107,7 @@ Train:
     shuffle: True
     drop_last: False
     batch_size_per_card: 16
-    num_workers: 1
+    num_workers: 2
     use_shared_memory: False
 
 Eval:
